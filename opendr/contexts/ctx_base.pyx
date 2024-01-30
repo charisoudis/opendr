@@ -15,7 +15,7 @@ ctypedef size_t	ptrdiff_t
 
 
 include "_functions.pyx"
-from _constants import *
+from opendr.contexts._constants import *
 
 
 def mc(func):
